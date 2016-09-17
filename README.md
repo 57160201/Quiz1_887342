@@ -53,5 +53,5 @@ US_states =
 	"Wisconsin" => "WI",
 	"Wyoming" => "WY"}
 	
-	
+US_states.each { |key,value| puts value if value[-1] == "N" || value[-1] == "T"}
 
